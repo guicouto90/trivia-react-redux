@@ -1,0 +1,42 @@
+.container-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:850px;
+}
+
+.container-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: white;
+  font-size: 34px;
+  margin-left: 44%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container-timer p {
+  width: 90%;
+  height: 50%;
+}
+
+.nextbtn {
+  display: none;
+}
+
+.bnt-next-quest {
+  margin-left: 38%;
+  width: 200px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size:18px;
+}
+.bnt-next-quest:hover {
+  background: rgb(150, 113, 180);
+}

@@ -1,0 +1,52 @@
+* {
+  color: black
+}
+  
+
+.container-login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.container-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 250px;
+  background: rgba(223, 220, 230, 1);
+  border-radius: 15px;
+}
+
+.form-input {
+  width: 250px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size:18px;
+}
+
+.bnt-play {
+  width: 160px;
+}
+
+.bnt-play:hover {
+  background: rgb(150, 113, 180);
+}
+
+.bnt-settings {
+  position: relative;
+  left: 200%;
+  bottom: 200%;
+}
+
+.bnt-settings:hover {
+  background: rgb(150, 113, 180);
+}

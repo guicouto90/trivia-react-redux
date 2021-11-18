@@ -1,0 +1,27 @@
+.container-freedback {
+  width: 500px;
+}
+p {
+  background: white;
+  width: 100%;
+  height: 30px;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.freedback-bnt {
+  text-align: center;
+  background: white;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding-left: 14%;
+  padding-right: 13%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.freedback-bnt:hover {
+  background: rgb(150, 113, 180);
+}
